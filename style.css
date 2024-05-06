@@ -1,0 +1,27 @@
+﻿* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vite-logo:hover
+{
+  filter: drop-shadow(0 0 2em #646cffaa);
+  transition: all 0.3s;
+}
+
+.tailwind-logo:hover {
+  filter: drop-shadow(0 0 2em #1eb2f7aa);
+  transition: all 0.3s;
+}
+
+#counter:hover
+{
+  filter: drop-shadow(0 0 1px #29b7f8aa);
+  background-color: #1eb2f7aa;
+  transition: all 0.4s;
+}

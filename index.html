@@ -1,21 +1,38 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Tailwind App</title>
 </head>
-
-<body>
-<<<<<<< HEAD
-    <!-- ****commento**** -->
-
-=======
-    <h1>Ciao Belli</h1>
->>>>>>> a12047650f81e3a2d759edab2dbcc1ec71263f7e
-
-<div class="test-luca">questa è una prova</div>
+<body class="bg-gray-900 flex justify-center items-center h-screen">
+    <main class="flex flex-col justify-center items-center">
+        <section class="logo-container w-full flex justify-center items-center gap-3 ml-5 mb-5">
+            <a href="https://vitejs.dev/">
+              <img src="/vite.svg" alt="Vite Logo" class="vite-logo w-28"/>
+            </a>
+            <div class="text-white w-12 h-12 flex justify-center items-center text-4xl">+</div>
+            <a href="https://tailwindcss.com/">
+              <img src="tailwind.svg" alt="Tailwind CSS Logo" class="tailwind-logo w-[10rem] h-auto hover:shadow-lg " />
+            </a>
+        </section>
+        <section class="counter">
+            <div class="hello my-5 ml-6">
+                <h1 class="text-white text-4xl font-bold">Hello Vite!</h1>
+            </div>
+            <section class="card-button">
+                <div class="button-container flex justify-center items-center text-white">
+                    <button id="counter" type="button" class="rounded-md bg-gray-950 px-3 py-2 font-semibold ">
+                    count is 0
+                    </button>
+                </div>
+                <div class="flex justify-center items-center">
+                    <h3 class="my-6 text-white text-[0.9rem] text-center mx-auto pointer-events-none">Click on the Vite logo to learn more</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script type="module" src="/main.js"></script>
 </body>
-
 </html>
